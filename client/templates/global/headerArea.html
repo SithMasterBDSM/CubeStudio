@@ -1,3 +1,8 @@
 <template name="headerArea">
-ENCABEZADO
+    CUBESTUDIO --- 
+    {{#if userIsLoggedIn}}
+        <button id="logout">Logout</button>
+    {{else}}
+        <button id="loginWithFacebook">Login</button>
+    {{/if}}
 </template>
