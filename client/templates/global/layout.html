@@ -1,6 +1,9 @@
 <template name="layout">
     {{> headerArea}}
     <div id="centralArea">
+	<div id="fb-root">
+            Área facebook.
+	</div>
         <!-- yield template is managed by iron route manager.
             From current route, content is selected (check route.js table) -->
         {{> yield}}

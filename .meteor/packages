@@ -19,3 +19,4 @@ standard-minifiers
 tracker
 twbs:bootstrap
 mrt:facebook-sdk        # Facebook graph API
+http
