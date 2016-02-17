@@ -1,0 +1,10 @@
+<template name="layout">
+    {{> headerArea}}
+    <div id="centralArea">
+        <!-- yield template is managed by iron route manager.
+            From current route, content is selected (check route.js table) -->
+        {{> yield}}
+        <!-- end of iron router managed yield template -->
+    </div>
+    {{> footerArea}}
+</template>

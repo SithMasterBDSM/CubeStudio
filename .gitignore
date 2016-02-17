@@ -1,4 +1,7 @@
 local
 node_modules
+versions
 .idea
 .finished-upgraders
+node_modules
+packages
