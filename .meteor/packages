@@ -15,8 +15,13 @@ reload
 service-configuration   # Used by accounts-facebook
 session
 spacebars
-standard-minifiers
 tracker
 twbs:bootstrap
 mrt:facebook-sdk        # Facebook graph API
 http
+standard-minifier-css
+standard-minifier-js
+meteorhacks:npm
+
+
+npm-container

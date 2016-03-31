@@ -1,7 +1,6 @@
 local
 node_modules
-versions
 .idea
-.finished-upgraders
-node_modules
+npm-shrinkwrap.json
+npm-debug.log
 packages
